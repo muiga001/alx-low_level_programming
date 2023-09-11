@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Retrun: zero on success
+ * Return: zero on success
  */
 int main(void)
 {
