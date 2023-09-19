@@ -9,9 +9,9 @@
 void puts2(char *str)
 {
 	int num;
-	int ind;
+	int ind = 0;
 
-	while (*str != '\0')
+	while (str[ind] != '\0')
 		ind++;
 
 	for (num = 0; num < ind; num += 2)
