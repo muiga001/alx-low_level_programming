@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -8,8 +9,17 @@
  */
 int main(int argc, char *argv[])
 {
-	if(argc > 1)
-		printf("%li\n", argv[1] * argv[2]);
-	else
+	int n;
+	int k;
+
+	n = atoi(argv[1]);
+	k = atoi(argv[2]);
+
+	if (argc == 3)
+	{
+		printf("%i\n", (n * k) );
+	}
+	if (argc != 3) 
 		printf("Error\n");
 	return (0);
+}
