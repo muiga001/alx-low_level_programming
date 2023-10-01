@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -6,7 +7,7 @@
  * @argv: vector
  * Return: zero on success
  */
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 	int n, m, sum;
 	char *al;
@@ -16,6 +17,7 @@ int main(int argc, char **argv[])
 	if (argc < 2)
 	{
 		printf("0\n");
+		return (0);
 	}
 
 	for (n = 1; n < argc; n++)
