@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		printf("%i\n", (n * k) );
+		printf("%i\n", (n * k));
 	}
-	if (argc != 3) 
+	if (argc != 3)
 		printf("Error\n");
 	return (0);
 }
