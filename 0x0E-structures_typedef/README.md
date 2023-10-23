@@ -1,1 +1,1 @@
-structures and tydef
+structures(user defined functions) and typedef
